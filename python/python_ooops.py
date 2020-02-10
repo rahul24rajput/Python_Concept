@@ -1496,6 +1496,8 @@
 
 # e = E()
 # e.m1() # e class method will be called 
+##################################################
+############ VERY IMP ############################
 # in line 1490 so here the q is if i want to call either c class mehtod or b class method. to call a particular class method.
 # how can i do ?
 # so there are two ways of calling like this
