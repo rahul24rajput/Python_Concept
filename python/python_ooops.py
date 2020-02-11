@@ -1741,6 +1741,23 @@
 #####################################################################################
 ################ METHOD OVERLOADING #################################################
 #####################################################################################
+BAsic structure of methos overloading
+public class Sum { 
+  
+    // Overloaded sum(). This sum takes two int parameters 
+    public int sum(int x, int y) 
+    { 
+        return (x + y); 
+    } 
+  
+    // Overloaded sum(). This sum takes three int parameters 
+    public int sum(int x, int y, int z) 
+    { 
+        return (x + y + z); 
+    } 
+##################################################################
+
+
 # Rest of theory read from pdf
 # Why python does not provide method OVERLOADING  ???????????????
 # Two method are said to be overloaded iff both methods having same name but different arguments types
