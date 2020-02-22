@@ -14,13 +14,16 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
+from django.conf.urls import include
 from django.urls import path
 from firstProject import views as fview
-from jobsApp import views as jview
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('urlApp/' ,include('urlsApp.urls')), # application level url is added to project level 
+    path('jobsApp/', include('jobsApp.urls')),# application level url is added to project level 
+    path('templateurl/', include('templateProject.urls')),
     path('hello/',fview.welcome),
     path('date/',fview.timeInfo),
-    path('jobs/',jview.findJob),
+    
 ]
