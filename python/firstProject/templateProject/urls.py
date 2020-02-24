@@ -1,7 +1,8 @@
 from django.urls import path
-from templateProject import views as tmpviews
+from templateProject import views 
 
 
 urlpatterns = [
-    path('urlappview/',tmpviews.tempFirstView),
+    path('urlappview/',views.tempFirstView),
+    path('profile/',views.profileView),
 ]
