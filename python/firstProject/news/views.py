@@ -1,6 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-
+from news.models import StudentsTable 
 
 def newsViews(request):
-    return HttpResponse('<h1>My name is rahul</h1>')
+    empData = StudentsTable.objects.all()
+    my_dict = {'emp_list':empData} 
+    print(empData)
+    return render(request,'temProject/news.html',context=my_dict)
