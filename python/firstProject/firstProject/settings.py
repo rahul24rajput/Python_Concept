@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'urlsApp',
     'templateProject',
     'news',
+    'formProject',
 ]
 
 MIDDLEWARE = [

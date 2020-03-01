@@ -24,6 +24,7 @@ urlpatterns = [
     path('jobsApp/', include('jobsApp.urls')),# application level url is added to project level 
     path('templateurl/', include('templateProject.urls')),
     path('newsurl/', include('news.urls')),
+    path('formurl/',include('formProject.urls')),
     path('hello/',fview.welcome),
     path('date/',fview.timeInfo),
     
