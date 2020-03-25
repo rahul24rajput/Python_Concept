@@ -571,7 +571,7 @@
 # class Test:
 #     a =10
 #     def __init__(self):
-#         Test.b = 20 # it will considered as static variable
+         Test.b = 20  it will considered as static variable
 # t = Test()
 
 #----------------------- Inside the instance methos by using class name -----------------------------------------
@@ -608,7 +608,7 @@
 # t = Test()
 # t.m2()
 # ******************************************** VERY IMP POINT *********************************************
-# Test.m2()  # m2 is a class method so it is not related to object have to access using class name
+ Test.m2()  ----> m2 is a class method so it is not related to object have to access using class name
 # Test.m3()
 
 
@@ -692,7 +692,7 @@
 # print(Test.a)
 
 ##################################################################
-### EX SET ON INSTANCE AND STATIC VARIABLE
+Very Imp Below EX ### EX SET ON INSTANCE AND STATIC VARIABLE
 ##################################################################
 
 # class Test:
