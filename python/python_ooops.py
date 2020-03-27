@@ -777,7 +777,7 @@ Very Imp Below EX ### EX SET ON INSTANCE AND STATIC VARIABLE
 # instance mehtod can be called using obj and static methos can be called using class name.
 
 
-######  inter q #########################  Question
+  Interview Question
 
 # class Test:
 #     def m():
@@ -791,8 +791,9 @@ Very Imp Below EX ### EX SET ON INSTANCE AND STATIC VARIABLE
 #     def m(x):
 #         print('some method')
 
-# t = Test()
-# t.m() # this will work beacuse self arg will be passed and in m method i am using x as self.
+ t = Test() 
+  # Imp
+ t.m() # this will work beacuse self arg will be passed and in m method i am using x as self.
 # t.(10)# this will not work beacuse method is taking only one argument
 
 # class Test:
