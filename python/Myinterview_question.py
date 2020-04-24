@@ -1,4 +1,4 @@
-Accessing __init__ vars in classmethod 
+# Accessing __init__ vars in classmethod 
 
 class Test:
     def __init__(self):
