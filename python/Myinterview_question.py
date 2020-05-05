@@ -1,4 +1,6 @@
-# Accessing __init__ vars in classmethod 
+# Accessing __init__ vars in classmetho
+# this shows the way that how can we access the init variables inside class method, wherever class method is no way related 
+# to object
 
 class Test:
     def __init__(self):
