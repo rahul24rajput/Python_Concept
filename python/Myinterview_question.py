@@ -13,3 +13,13 @@ class Test:
         
 t = Test()
 t.cls_method()
+#############
+
+#To get the file name
+print(__file__)
+# To know the absolute path of current file python file
+print(os.path.abspath(__file__))
+# /Users/kbhatnagar/Desktop/temp/temp.py. 
+# To know the base directory name of current file
+print(os.path.dirname(os.path.abspath(__file__)))
+# /Users/kbhatnagar/Desktop/temp will come
