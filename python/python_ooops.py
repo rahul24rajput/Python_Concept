@@ -571,7 +571,7 @@
 # class Test:
 #     a =10
 #     def __init__(self):
-#         Test.b = 20 # it will considered as static variable
+         Test.b = 20  it will considered as static variable
 # t = Test()
 
 #----------------------- Inside the instance methos by using class name -----------------------------------------
@@ -608,7 +608,7 @@
 # t = Test()
 # t.m2()
 # ******************************************** VERY IMP POINT *********************************************
-# Test.m2()  # m2 is a class method so it is not related to object have to access using class name
+ Test.m2()  ----> m2 is a class method so it is not related to object have to access using class name
 # Test.m3()
 
 
@@ -692,7 +692,7 @@
 # print(Test.a)
 
 ##################################################################
-### EX SET ON INSTANCE AND STATIC VARIABLE
+Very Imp Below EX ### EX SET ON INSTANCE AND STATIC VARIABLE
 ##################################################################
 
 # class Test:
@@ -777,7 +777,7 @@
 # instance mehtod can be called using obj and static methos can be called using class name.
 
 
-######  inter q #########################  Question
+  Interview Question
 
 # class Test:
 #     def m():
@@ -791,8 +791,9 @@
 #     def m(x):
 #         print('some method')
 
-# t = Test()
-# t.m() # this will work beacuse self arg will be passed and in m method i am using x as self.
+ t = Test() 
+  # Imp
+ t.m() # this will work beacuse self arg will be passed and in m method i am using x as self.
 # t.(10)# this will not work beacuse method is taking only one argument
 
 # class Test:
