@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'templateProject',
     'news',
     'formProject',
+    'revisedApp',
 ]
 
 MIDDLEWARE = [

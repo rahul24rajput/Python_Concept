@@ -18,6 +18,7 @@ from django.conf.urls import include
 from django.urls import path
 from firstProject import views as fview
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('urlApp/' ,include('urlsApp.urls')), # application level url is added to project level 
@@ -27,5 +28,6 @@ urlpatterns = [
     path('formurl/',include('formProject.urls')),
     path('hello/',fview.welcome),
     path('date/',fview.timeInfo),
+    path('revisedApp/',include('revisedApp.urls')),
     
 ]
