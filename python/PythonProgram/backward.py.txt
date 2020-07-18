@@ -1,4 +1,0 @@
-str = input("Enter the string ")
-if __name__=="__main__":
-    backward = str[::-1]
-print(backward)

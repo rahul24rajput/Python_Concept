@@ -1,9 +1,0 @@
-for row in incsv:
-            item =  row[0:1]
-            for each in item:
-                k=int(each)
-                print(type(k))
-                
-invalid literal for int() with base 10: '1482390189.85'
-if in the list that are coming from row[0:1]  is thee any float value so this error will come.
-So for overcome from this problem we have to use float(each) instead of int(each) so it will be fine 
