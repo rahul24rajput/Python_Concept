@@ -1,0 +1,4 @@
+env
+.pyc
+#Mac Clutter
+.DS_Store

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<h1>Are u sure wana to delete {{ book.title }}</h1>
+<form method="post">
+    {%csrf_token%}
+<input type="submit" value="Delete record">
+
+</form>
+    
+</body>
