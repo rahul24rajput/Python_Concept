@@ -1,0 +1,13 @@
+def function(a,b,c):
+    if (a>b and a>c):
+        return a
+    elif  (b>a and b>c):
+        return b
+    else :
+        return c
+x=input ("enter the value of x")
+y=input("enter the value of y")
+z=input("enter the value of z")
+greater = function(x,y,z)
+
+print "the greater number is " + str(greater)

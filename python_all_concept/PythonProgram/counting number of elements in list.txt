@@ -1,0 +1,8 @@
+
+def main():
+    with open(IN_FILE, mode='r', newline='') as inf :
+        
+         reader = csv.reader(inf)
+         data = list(reader)  taking reader and converting it into the list object
+         row_count = len(data) The method len() returns the number of elements in the list.
+         print(row_count) 

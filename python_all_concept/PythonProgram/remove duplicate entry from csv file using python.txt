@@ -1,0 +1,25 @@
+import csv
+
+IN_FILE  = 'my.csv'
+OUT_FILE = 'outmy.csv'
+
+def main():
+    with open(IN_FILE, mode='r', newline='') as inf, open(OUT_FILE, mode='w', newline='') as outf:
+        incsv, outcsv  = csv.reader(inf), csv.writer(outf)
+
+        # read data and de-duplicate by city and state
+        imeies = set()
+        #here after getting the imeis value every time imeies is calling the set function so after calling it.it will automatically 
+        #remove theduplicate entry
+        for row in incsv:
+            imei=(tuple(row[2:]))
+
+            if imei not in imeies:
+                outcsv.writerow(row)
+                imeies.add(imei)
+ 
+
+
+
+if __name__=="__main__":
+    main()
