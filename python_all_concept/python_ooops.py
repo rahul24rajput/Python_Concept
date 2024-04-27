@@ -1138,7 +1138,7 @@ Very Imp Below EX ### EX SET ON INSTANCE AND STATIC VARIABLE
 # # IS A relationship Coinnection 
 # class Emp(Person):   # inheriting a person class
 #     def __init__(self,name,age,cmp_name,car):
-#         super.__init__(name,age)
+#         super().__init__(name,age)
 #         self.cmp_name= cmp_name
 #         self.car = car
 #     def getEmpDetail(self):
